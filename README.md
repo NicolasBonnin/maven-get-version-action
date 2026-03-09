@@ -1,6 +1,6 @@
 # maven-get-version-action
 This Github Action retrieves the pom version from the pom.xml file and sets the version in the `version` output value usable in your workflow file which can be used in a following step by using `${{ steps.pom-version.outputs.version }}`.
-Use **Java 25** (Temurin).
+Use **Java 21** (Temurin).
 
 ## Example
 

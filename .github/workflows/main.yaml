@@ -6,7 +6,7 @@ jobs:
     name: Job to test the maven get version action
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Get maven project version from pom
         id: get-mvn-version
         uses: ./
